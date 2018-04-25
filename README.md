@@ -1,7 +1,10 @@
-# Aplikasi Keuangan Kampus
+# Aplikasi Perwalian Online
+- versi mahasiswa
+- versi dosen
+- versi jurusan
 
 # Cara menggunakan git
-1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_keuangan_kampus.git```
+1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_perwalian_online.git```
 2. ketika ada perubahan file (tambah file, hapus, edit)
 jalankan perintah ``` git add . ``` 
 **catatan:** gunakan tanda "." untuk semua file, atau ```git add nama_file``` untuk satu file.
