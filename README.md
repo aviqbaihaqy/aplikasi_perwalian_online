@@ -3,6 +3,12 @@
 - versi dosen
 - versi jurusan
 
+# Cara Mengerjakan tugas
+1. folder kerja ada di folder app
+2. copy **blank.html** dan **rename** sesuai dengan tugas masing-masing
+3. mulai membuat tampilan sesuai tugas, mengacu pada user manual
+4. **simpan**, kemudian jalankan perintah dibawah (no.2 sampai no. 4)
+
 # Cara menggunakan git
 1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_perwalian_online.git```
 2. ketika ada perubahan file (tambah file, hapus, edit)
