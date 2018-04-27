@@ -7,8 +7,9 @@
 1. folder kerja ada di folder app
 2. copy **blank.html** dan **rename** sesuai dengan tugas masing-masing
 3. mulai membuat tampilan sesuai tugas, mengacu pada user manual
-4. **simpan**, pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
-5. kemudian jalankan perintah dibawah (no.2 sampai no. 4)
+4. kemudian **simpan** kedalam folder sesuai dengan versi penggunanya, **misal** : **master mahasiswa** versi pengguna **sekretariat jurusan**, maka disimpan di folder **sekretariat_jurusan**.
+5. pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
+6. kemudian jalankan perintah dibawah (no.2 sampai no. 4)
 
 # Cara menggunakan git
 1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_perwalian_online.git```
