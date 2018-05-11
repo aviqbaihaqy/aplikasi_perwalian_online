@@ -128,10 +128,10 @@
                 <span class="badge badge-primary">NEW</span>
               </a>
             </li>
-            <li class="nav-title">Theme</li>
+            <li class="nav-title">Data Mahasiswa</li>
             <li class="nav-item">
-              <a class="nav-link" href="colors.html">
-                <i class="nav-icon icon-drop"></i> Colors</a>
+              <a class="nav-link" href="mahasiswa.html">
+                <i class="nav-icon icon-drop"></i>Mahasiswa</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="typography.html">
@@ -341,141 +341,139 @@
         </ol>
         <div class="container-fluid">
           <div class="animated fadeIn">
+		  
+			<div class="card">
+				<div class="card-header">
+				<button type="button" class="col-md-2" aria-pressed="true">Tambah Mahasiswa</button>
+				<strong>Pencarian Data Mahasiswa</strong>
+				</div>
+				<div class="card-body">
+				<form action="" method="post" class="form-horizontal">
+				<div class="form-group row">
+				<div class="col-md-12">
+				<div class="input-group">
+				<label class="col-md-3 col-form-label" for="text-input">Pencarian Berdasarkan : </label>
+				<div class="input-group-prepend">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">NIM
+					<span class="caret"></span>
+					</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">NIM</a>
+					<a class="dropdown-item" href="#">Nama Mahasiswa</a>
+					<a class="dropdown-item" href="#">Kode Kelas</a>
+					<div role="separator" class="dropdown-divider"></div>
+				</div>
+				</div>
+				<input type="text" id="input1-group3" name="input1-group3" class="form-control" placeholder=" ">
+				<span class="input-group-append">
+				<button type="button" class="btn btn-primary">
+					<i class="fa fa-search"></i> Search</button>
+				</button>
+				</span>
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
 
-    <div class="card">
-      <div class="card-header">
-        <i class="fa fa-align-justify"></i> Pencarian Nilai Mahasiswa
-          <div class="card-header-actions">
-            <a href="https://coreui.io/docs/components/bootstrap-collapse/" class="card-header-action" target="_blank">
-            </a>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="card">
+						<div class="card-header">
+							<i class="fa fa-align-justify"></i>DATA MAHASISWA
+						</div>
+							<div class="card-body">
+								<table class="table table-responsive-sm table-bordered table-striped table-sm">
+								<thead>
+									<tr>
+										<th>NIM</th>
+										<th>NAMA</th>
+										<th>JENIS</th>
+										<th>STATUS</th>
+										<th>KELAS</th>
+										<th>DOSEN WALI</th>
+										<th>KETERANGAN</th>
+									</tr>
+								</thead>
+							<tbody>
+								<tr>
+									<td>2016160001</td>
+									<td>Lailatul Maulidah</td>
+									<td>Reguler</td>
+									<td>Aktif</td>
+									<td>MI/4</td>
+									<td>Muslim Hidayat, M.Kom</td>
+									<td>
+										<span class="badge badge-success">Edit</span>
+									</td>
+								</tr>
+								<tr>
+									<td>2016160002</td>
+									<td>Eva Kurniawati</td>
+									<td>Reguler</td>
+									<td>Cuti</td>
+									<td>MI/4</td>
+									<td>Muslim Hidayat, M.Kom</td>
+									<td>
+										<span class="badge badge-danger">Edit</span>
+									</td>
+								</tr>
+								<tr>
+									<<td>2016160003</td>
+									<td>Faiz Amrillah</td>
+									<td>Reguler</td>
+									<td>Tidak Aktif</td>
+									<td>MI/4</td>
+									<td>Muslim Hidayat, M.Kom</td>
+									<td>
+										<span class="badge badge-secondary">Edit</span>
+									</td>
+								</tr>
+								<tr>
+									<td>2016160004</td>
+									<td>Fery Andryanto</td>
+									<td>Reguler</td>
+									<td>Aktif</td>
+									<td>MI/4</td>
+									<td>Muslim Hidayat, M.Kom</td>
+									<td>
+										<span class="badge badge-warning">Edit</span>
+									</td>
+								</tr>
+								<tr>
+									<td>2016160005</td>
+									<td>Hendri Prasetyo</td>
+									<td>Reguler</td>
+									<td>Cuti</td>
+									<td>MI/4</td>
+									<td>Muslim Hidayat, M.Kom</td>
+									<td>
+										<span class="badge badge-success">Edit</span>
+								</td>
+								</tr>
+							</tbody>
+								</table>
+			<nav>
+				<ul class="pagination">
+					<li class="page-item"><a class="page-link" href="#">Prev</a></li>
+					<li class="page-item active">
+					<a class="page-link" href="#">1</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">4</a></li>
+					<li class="page-item"><a class="page-link" href="#">Next</a></li>
+				</ul>
+				</nav>
+				</div>
+				</div>
+				</div>
+				</div>
+						  
+		  
+
           </div>
-      </div>
-    <div class="card-body">
-    <p>
-        <div class="form-group row">
-          <label class="col-md-1 col-form-label" for="hf-NIM">NIM:</label>
-            <div class="col-md-3">
-               <input type="NIM" id="hf-NIM" name="hf-NIM" class="form-control" placeholder="Masukan NIM">
-           </div>
-              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-               Lihat Nilai
-             </a>
         </div>
-       </div>
-    </div>
-
-    <div class="col-lg-14">
-      <div class="card">
-        <div class="card-header">
-        LANIE AGUSTIN(10108003)</br>
-        Tahun Akademik 2008/2009 Semester Ganjil
-        </div>
-          <div class="card-body">
-            <table class="table table-responsive-sm table-bordered">
-              <thead>
-                <tr>
-
-                  <th>Kode Mata Kuliah</th>
-                  <th>Nama Mata Kuliah</th>
-                  <th>SKS</th>
-                  <th>Nilai</th>
-                  <th>Bobot</th>
-                  <th>SKS X Bobot</th>
-                 </tr>
-              </thead>
-                <tbody>
-                 <tr>
-                  <td>IF31102</td>
-                  <td>Pancasila</td>
-                  <td>2</td>
-                  <td>A</td>
-                  <td>4</td>
-                  <td>8</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31105</td>
-                  <td>Bahasa Inggris</td>
-                  <td>2</td>
-                  <td>A</td>
-                  <td>4</td>
-                  <td>8</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31201</td>
-                  <td>Kalkulus l</td>
-                  <td>3</td>
-                  <td>C</td>
-                  <td>2</td>
-                  <td>6</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31202</td>
-                  <td>Fisika Dasar l</td>
-                  <td>3</td>
-                  <td>D</td>
-                  <td>1</td>
-                  <td>3</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31203L</td>
-                  <td>Praktikum Fisika Dasar l</td>
-                  <td>1</td>
-                  <td>C</td>
-                  <td>2</td>
-                  <td>2</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31204</td>
-                  <td>Algoritma dan Pemograman l</td>
-                  <td>2</td>
-                  <td>C</td>
-                  <td>2</td>
-                  <td>4</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31205</td>
-                  <td>Pengantar Ilmu Komputer</td>
-                  <td>2</td>
-                  <td>A</td>
-                  <td>4</td>
-                  <td>8</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31206L</td>
-                  <td>Software Terapan l</td>
-                  <td>2</td>
-                  <td>C</td>
-                  <td>2</td>
-                  <td>4</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td>IF31207L</td>
-                  <td>Aplikasi TI l</td>
-                  <td>2</td>
-                  <td>A</td>
-                  <td>4</td>
-                  <td>8</td>
-                </tbody>
-                <tbody>
-                 <tr>
-                  <td></td>
-                  <td>Total SKS</td>
-                  <td>19</td>
-                  <td></td>
-                  <td>Total</td>
-                  <td>51</td>
-                </tbody>
-            </table>
-
-
       </main>
       <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
