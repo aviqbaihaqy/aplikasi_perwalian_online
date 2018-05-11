@@ -339,52 +339,111 @@
             </div>
           </li>
         </ol>
+        
+        
         <div class="container-fluid">
           <div class="animated fadeIn">
-
-            <div class="col-sm-12 col-xl-6">
-              <div class="card">
-              <div class="card-header">
-              <i class="fa fa-align-justify"></i> Pembuatan kartu Studi Mahasiswa
-       
-              </div>
-              <div class="card-body">
-              <ul class="list-group">
             
-              <li class="list-group-item list-group-item-primary">Kartu Rencana Studi-Formulir Rencana Studi (FRS)</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control"
-                <option>1011003 - Arsitek/S1 (45 mhs)</option> id="ccmonth">
-                <option>1011001 - Teknik Informatika/S1 (100 mhs)</option>
-                <option>1011002 - Manajemen Informatika/D3 (45 mhs)</option>
-                <option>1011004 - Teknik Sipil/S1 (100 mhs)</option>
-                <option>1011005 - Teknik Mesin/D3 (50 mhs)</option>
-                </select></li><button type="button" class="btn btn-secondary"><a href="UNIVERSITAS.htm">Cetak Kartu Studi Mahasiswa</a></button>
-              <li class="list-group-item list-group-item-danger">Kartu Rencana studi-Perubahan Rencana Studi (PRS)</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control" id="ccmonth">
-                <option>1011201 - Teknik Informatika-1/S1 (60 mhs)</option>
-                <option>1025102 - Manajemen Informatika-2/D3 (25 mhs)</option>
-                <option>1035003 - Arsitek-1/S1 (50 mhs)</option>
-                <option>1035804 - Teknik sipil-3/S1 (30 mhs)</option>
-                <option>1025705 - Teknik Manufaktur/D3 (35 mhs)</option>
-                </select></li>
-                <button type="button" class="btn btn-secondary">Cetak Kartu Studi Mahasiswa</button>
-              <li class="list-group-item list-group-item-light">Kartu Rencana Studi - FRS + PRS</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control" id="ccmonth">
-                <option>1023501 - Teknik Informatika-1/S1 (80 mhs)</option>
-                <option>1065802 - Manajemen Informatika-2/D3 (30 mhs)</option>
-                <option>1048003 - Arsitek-1/S1 (50 mhs)</option>
-                <option>1058604 - Teknik sipil-3/S1 (60 mhs)</option>
-                <option>1078905 - Teknik Manufaktur/D3 (50 mhs)</option>
-                </select></li>
-                <button type="button" class="btn btn-secondary">Cetak Kartu Studi Mahasiswa</button>
-              </ul>
-              </div>
-              </div>
-              </div>
-              
-             
+            
+            <div class="row">
+            <div class="col-sm-12 col-xl-6">  
+              <div class="card">
+                <div class="card-header">
+               Biodata
+                </div>
+                <div class="card-body">
+                <form action="" method="post" class="form-horizontal">
+                <div class="form-group row">
+                <label class="col-sm-5 col-form-label" for="nim">NIM</label>
+                <div class="col-sm-6">
+                <input type="numeric" id="nim" name="nim" class="form-control form-control-sm" placeholder=".form-control-sm">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label class="col-sm-5 col-form-label" for="nama">Nama</label>
+                <div class="col-sm-6">
+                <input type="text" id="nama" name="nama" class="form-control form-control-sm" placeholder=".form-control-sm">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label class="col-sm-5 col-form-label" for="kelas">Kelas</label>
+                <div class="col-sm-6">
+                <input type="numeric" id="kelas" name="kelas" class="form-control form-control-sm" placeholder=".form-control-sm">
+                </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-5 col-form-label" for="nimdosenwali">NIM Dosen Wali</label>
+                  <div class="col-sm-6">
+                  <input type="numeric" id="nimdosenwali" name="nimdosenwali" class="form-control form-control-sm" placeholder=".form-control-sm">
+                  </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-5 col-form-label" for="kelas">Dosen Wali</label>
+                    <div class="col-sm-6">
+                    <input type="text" id="dosenwali" name="dosenwali" class="form-control form-control-sm" placeholder=".form-control-sm">
+                    </div>
+                </div>
+                </form>
+                </div>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Submit</button>
+                <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+                </div>
+                </div>
 
-        </div>
+              <div class="card">
+                <div class="card-header">
+                <strong> update password</strong>
+                
+                </div>
+                <div class="card-body">
+                <form action="" method="post" class="form-horizontal">
+                <div class="form-group row">
+                <label class="col-sm-6 col-form-label" for="hf-email">Password Sekarang</label>
+                <div class="col-sm-8">
+                <input type="email" id="hf-email" name="hf-email" class="form-control" placeholder="Enter Password sekarang">
+                 </div>
+                </div>
+                <div class="form-group row">
+                <label class="col-sm-6 col-form-label" for="hf-password">Password Baru</label>
+                <div class="col-sm-8">
+                <input type="password" id="hf-password" name="hf-password" class="form-control" placeholder="Enter Password baru..">
+                </div>
+              </div>
+              <div class="form-group row">
+              <label class="col-sm-6 col-form-label" for="hf-password">Konfirmasi Password</label>
+              <div class="col-sm-8">
+              <input type="password" id="hf-password" name="hf-password" class="form-control" placeholder="Konfirmasi Password baru..">
+              </div>
+                </div>
+                </form>
+                </div>
+                <div class="card-footer">
+                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> update password</button>
+                <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+                </div>
+                </div>
+                </div>
+</div>
+</div>
+</div>
+<div class="card">
+  <div class="card-header">
+  <strong> update email</strong> 
+  </div>
+  <div class="card-body">
+  <form action="" method="post" class="form-horizontal">
+  <div class="form-group row">
+  <label class="col-sm-2 col-form-label" for="hf-email">email</label>
+  <div class="col-sm-6">
+  <input type="email" id="hf-email" name="hf-email" class="form-control" placeholder="enter email">
+  <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> update email</button>
+</div>
+</div>
+  </div>
+       
+   </div>
+   
       </main>
       <aside class="aside-menu">
         <ul class="nav nav-tabs" role="tablist">
