@@ -3,9 +3,10 @@
 * CoreUI - Free Bootstrap Admin Template
 * @version v2.0.0-beta.0
 * @link https://coreui.io
-* Copyright (c) 2018 creativeLabs Łukasz Holeczek
+* Copyright (c) 2018 creativeLabs Lukasz Holeczek
 * Licensed under MIT (https://coreui.io/license)
 -->
+
 
 <html lang="en">
   <head>
@@ -13,16 +14,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
-    <meta name="author" content="Łukasz Holeczek">
+    <meta name="author" content="Lukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
     <title>CoreUI Free Bootstrap Admin Template</title>
     <!-- Icons-->
-    <link href="assets/vendors/css/flag-icon.min.css" rel="stylesheet">
-    <link href="assets/vendors/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/vendors/css/simple-line-icons.css" rel="stylesheet">
+    <link href="../assets/vendors/css/flag-icon.min.css" rel="stylesheet">
+    <link href="../assets/vendors/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/vendors/css/simple-line-icons.css" rel="stylesheet">
     <!-- Main styles for this application-->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/vendors/css/pace.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/vendors/css/pace.min.css" rel="stylesheet">
   </head>
   <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
     <header class="app-header navbar">
@@ -30,8 +31,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img class="navbar-brand-full" src="assets/img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
-        <img class="navbar-brand-minimized" src="assets/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
+        <img class="navbar-brand-full" src="../assets/img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
+        <img class="navbar-brand-minimized" src="../assets/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
       </a>
       <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -66,7 +67,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+            <img class="img-avatar" src="../assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">
@@ -333,57 +334,139 @@
                 <i class="icon-speech"></i>
               </a>
               <a class="btn" href="./">
-                <i class="icon-graph"></i>  Dashboard</a>
+                <i class="icon-graph"></i>  Dashboard</a>
               <a class="btn" href="#">
-                <i class="icon-settings"></i>  Settings</a>
+                <i class="icon-settings"></i>  Settings</a>
             </div>
           </li>
         </ol>
-        <div class="container-fluid">
-          <div class="animated fadeIn">
-
-            <div class="col-sm-12 col-xl-6">
-              <div class="card">
-              <div class="card-header">
-              <i class="fa fa-align-justify"></i> Pembuatan kartu Studi Mahasiswa
-       
-              </div>
-              <div class="card-body">
-              <ul class="list-group">
-            
-              <li class="list-group-item list-group-item-primary">Kartu Rencana Studi-Formulir Rencana Studi (FRS)</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control"
-                <option>1011003 - Arsitek/S1 (45 mhs)</option> id="ccmonth">
-                <option>1011001 - Teknik Informatika/S1 (100 mhs)</option>
-                <option>1011002 - Manajemen Informatika/D3 (45 mhs)</option>
-                <option>1011004 - Teknik Sipil/S1 (100 mhs)</option>
-                <option>1011005 - Teknik Mesin/D3 (50 mhs)</option>
-                </select></li><button type="button" class="btn btn-secondary"><a href="UNIVERSITAS.htm">Cetak Kartu Studi Mahasiswa</a></button>
-              <li class="list-group-item list-group-item-danger">Kartu Rencana studi-Perubahan Rencana Studi (PRS)</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control" id="ccmonth">
-                <option>1011201 - Teknik Informatika-1/S1 (60 mhs)</option>
-                <option>1025102 - Manajemen Informatika-2/D3 (25 mhs)</option>
-                <option>1035003 - Arsitek-1/S1 (50 mhs)</option>
-                <option>1035804 - Teknik sipil-3/S1 (30 mhs)</option>
-                <option>1025705 - Teknik Manufaktur/D3 (35 mhs)</option>
-                </select></li>
-                <button type="button" class="btn btn-secondary"><a href="UNIVERSITAS.htm">Cetak Kartu Studi Mahasiswa</a></button>
-              <li class="list-group-item list-group-item-light">Kartu Rencana Studi - FRS + PRS</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control" id="ccmonth">
-                <option>1023501 - Teknik Informatika-1/S1 (80 mhs)</option>
-                <option>1065802 - Manajemen Informatika-2/D3 (30 mhs)</option>
-                <option>1048003 - Arsitek-1/S1 (50 mhs)</option>
-                <option>1058604 - Teknik sipil-3/S1 (60 mhs)</option>
-                <option>1078905 - Teknik Manufaktur/D3 (50 mhs)</option>
-                </select></li>
-                <button type="button" class="btn btn-secondary"><a href="UNIVERSITAS.htm">Cetak Kartu Studi Mahasiswa</a></button>
-              </ul>
-              </div>
-              </div>
-              </div>
-              
-             
-
+				<div class="container-fluid">
+				  <div class="animated fadeIn">
+					<div class="card-body">
+					
+					<div class="card">
+				<div class="card-header">
+				<button type="button" class="col-md-2" aria-pressed="true">Tambah Mahasiswa</button>
+				<strong>Pencarian Data Mahasiswa</strong>
+				</div>
+				<div class="card-body">
+				<form action="" method="post" class="form-horizontal">
+				<div class="form-group row">
+				<div class="col-md-12">
+				<div class="input-group">
+				<label class="col-md-3 col-form-label" for="text-input">Pencarian Berdasarkan : </label>
+				<div class="input-group-prepend">
+					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">NIM
+					<span class="caret"></span>
+					</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">NIM</a>
+					<a class="dropdown-item" href="#">Nama Mahasiswa</a>
+					<a class="dropdown-item" href="#">Kode Kelas</a>
+					<div role="separator" class="dropdown-divider"></div>
+				</div>
+				</div>
+				<input type="text" id="input1-group3" name="input1-group3" class="form-control" placeholder=" ">
+				<span class="input-group-append">
+				<button type="button" class="btn btn-primary">
+					<i class="fa fa-search"></i> Search</button>
+				</button>
+				</span>
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+						
+						<div class="row">
+				<div class="col-lg-12">
+					<div class="card">
+						<div class="card-header">
+							<i class="fa fa-align-justify"></i>DATA MAHASISWA
+						</div>
+							<div class="card-body">
+								<table class="table table-responsive-sm table-bordered table-striped table-sm">
+								<thead>
+									<tr>
+										<th>NIM</th>
+										<th>NAMA</th>
+										<th>JENIS</th>
+										<th>STATUS</th>
+										<th>KELAS</th>
+										<th>DOSEN WALI</th>
+										<th>KETERANGAN</th>
+									</tr>
+								</thead>
+							<tbody>
+								<tr>
+									<td>10106008</td>
+									<td>RD. MEGA RAMADHANI</td>
+									<td>Reguler</td>
+									<td>Aktif</td>
+									<td>IF-1/S1/X</td>
+									<td>Mira Kania Sabariah, S.T.,M.T</td>
+									<td>
+										<span class="badge badge-success">Edit</span>
+										<span class="badge badge-success">Reset Password</span>
+									</td>
+								</tr>
+								<tr>
+									<td>10105073</td>
+									<td>AGUS GUNAWAN</td>
+									<td>Reguler</td>
+									<td>Cuti</td>
+									<td>IF-2/S1/XII</td>
+									<td>Rani Susanto, S.Kom</td>
+									<td>
+										<span class="badge badge-danger">Edit</span>
+										<span class="badge badge-danger">Reset Password</span>
+									</td>
+								</tr>
+								<tr>
+									<td>10110404</td>
+									<td>AHMAD GUNAWAN</td>
+									<td>Reguler</td>
+									<td>Aktif</td>
+									<td>IF-9/S1/II</td>
+									<td>Sufaatin, S.T</td>
+									<td>
+										<span class="badge badge-secondary">Edit</span>
+										<span class="badge badge-secondary">Reset Password</span>
+									</td>
+								</tr>
+								<tr>
+									<td>10100029</td>
+									<td>ANGGA GUNAWAN</td>
+									<td>Reguler</td>
+									<td>Tidak Aktif</td>
+									<td>IF-1/S1/XII</td>
+									<td>Muhammad Nasrun, S.Si.,M.T</td>
+									<td>
+										<span class="badge badge-warning">Edit</span>
+										<span class="badge badge-warning">Reset Password</span>
+									</td>
+								</tr>
+							</tbody>
+								</table>
+			<nav>
+				<ul class="pagination">
+					<li class="page-item"><a class="page-link" href="#">Prev</a></li>
+					<li class="page-item active">
+					<a class="page-link" href="#">1</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">4</a></li>
+					<li class="page-item"><a class="page-link" href="#">Next</a></li>
+				</ul>
+				</nav>
+				</div>
+				</div>
+				</div>
+				</div>
+					
+							
+          </div>
         </div>
       </main>
       <aside class="aside-menu">
@@ -411,27 +494,27 @@
               <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Today</div>
               <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
                 <div class="avatar float-right">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                 </div>
                 <div>Meeting with
                   <strong>Lucas</strong>
                 </div>
                 <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  1 - 3pm</small>
+                  <i class="icon-calendar"></i>  1 - 3pm</small>
                 <small class="text-muted">
-                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
+                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
               </div>
               <div class="list-group-item list-group-item-accent-info">
                 <div class="avatar float-right">
-                  <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                 </div>
                 <div>Skype with
                   <strong>Megan</strong>
                 </div>
                 <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  4 - 5pm</small>
+                  <i class="icon-calendar"></i>  4 - 5pm</small>
                 <small class="text-muted">
-                  <i class="icon-social-skype"></i>  On-line</small>
+                  <i class="icon-social-skype"></i>  On-line</small>
               </div>
               <div class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">Tomorrow</div>
               <div class="list-group-item list-group-item-accent-danger list-group-item-divider">
@@ -439,24 +522,24 @@
                   <strong>deadline</strong>
                 </div>
                 <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  10 - 11pm</small>
+                  <i class="icon-calendar"></i>  10 - 11pm</small>
                 <small class="text-muted">
-                  <i class="icon-home"></i>  creativeLabs HQ</small>
+                  <i class="icon-home"></i>  creativeLabs HQ</small>
                 <div class="avatars-stack mt-2">
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                 </div>
               </div>
@@ -464,39 +547,39 @@
                 <div>
                   <strong>#10 Startups.Garden</strong> Meetup</div>
                 <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  1 - 3pm</small>
+                  <i class="icon-calendar"></i>  1 - 3pm</small>
                 <small class="text-muted">
-                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
+                  <i class="icon-location-pin"></i>  Palo Alto, CA</small>
               </div>
               <div class="list-group-item list-group-item-accent-primary list-group-item-divider">
                 <div>
                   <strong>Team meeting</strong>
                 </div>
                 <small class="text-muted mr-3">
-                  <i class="icon-calendar"></i>  4 - 6pm</small>
+                  <i class="icon-calendar"></i>  4 - 6pm</small>
                 <small class="text-muted">
-                  <i class="icon-home"></i>  creativeLabs HQ</small>
+                  <i class="icon-home"></i>  creativeLabs HQ</small>
                 <div class="avatars-stack mt-2">
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/2.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/3.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/5.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                   <div class="avatar avatar-xs">
-                    <img class="img-avatar" src="assets/img/avatars/8.jpg" alt="admin@bootstrapmaster.com">
+                    <img class="img-avatar" src="../assets/img/avatars/8.jpg" alt="admin@bootstrapmaster.com">
                   </div>
                 </div>
               </div>
@@ -506,7 +589,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -521,7 +604,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -536,7 +619,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -551,7 +634,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -566,7 +649,7 @@
             <div class="message">
               <div class="py-3 pb-5 mr-3 float-left">
                 <div class="avatar">
-                  <img class="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
+                  <img class="img-avatar" src="../assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com">
                   <span class="avatar-status badge-success"></span>
                 </div>
               </div>
@@ -672,22 +755,12 @@
         </div>
       </aside>
     </div>
-    <footer class="app-footer">
-      <div>
-        <a href="https://coreui.io">CoreUI</a>
-        <span>&copy; 2018 creativeLabs.</span>
-      </div>
-      <div class="ml-auto">
-        <span>Powered by</span>
-        <a href="https://coreui.io">CoreUI</a>
-      </div>
-    </footer>
+   
     <!-- Bootstrap and necessary plugins-->
-    <script src="assets/vendors/js/jquery.min.js"></script>
-    <script src="assets/vendors/js/popper.min.js"></script>
-    <script src="assets/vendors/js/bootstrap.min.js"></script>
-    <script src="assets/vendors/js/pace.min.js"></script>
-    <script src="assets/vendors/js/perfect-scrollbar.min.js"></script>
-    <script src="assets/vendors/js/coreui.min.js"></script>
+    <script src="../assets/vendors/js/jquery.min.js"></script>
+    <script src="../assets/vendors/js/popper.min.js"></script>
+    <script src="../assets/vendors/js/bootstrap.min.js"></script>
+    <script src="../assets/vendors/js/pace.min.js"></script>
+    <script src="../assets/vendors/js/perfect-scrollbar.min.js"></script>
+    <script src="../assets/vendors/js/coreui.min.js"></script>
   </body>
-</html>

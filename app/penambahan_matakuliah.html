@@ -319,6 +319,7 @@
         <button class="sidebar-minimizer brand-minimizer" type="button"></button>
       </div>
       <main class="main">
+      
         <!-- Breadcrumb-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">Home</li>
@@ -342,48 +343,108 @@
         <div class="container-fluid">
           <div class="animated fadeIn">
 
-            <div class="col-sm-12 col-xl-6">
-              <div class="card">
-              <div class="card-header">
-              <i class="fa fa-align-justify"></i> Pembuatan kartu Studi Mahasiswa
-       
-              </div>
-              <div class="card-body">
-              <ul class="list-group">
-            
-              <li class="list-group-item list-group-item-primary">Kartu Rencana Studi-Formulir Rencana Studi (FRS)</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control"
-                <option>1011003 - Arsitek/S1 (45 mhs)</option> id="ccmonth">
-                <option>1011001 - Teknik Informatika/S1 (100 mhs)</option>
-                <option>1011002 - Manajemen Informatika/D3 (45 mhs)</option>
-                <option>1011004 - Teknik Sipil/S1 (100 mhs)</option>
-                <option>1011005 - Teknik Mesin/D3 (50 mhs)</option>
-                </select></li><button type="button" class="btn btn-secondary"><a href="UNIVERSITAS.htm">Cetak Kartu Studi Mahasiswa</a></button>
-              <li class="list-group-item list-group-item-danger">Kartu Rencana studi-Perubahan Rencana Studi (PRS)</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control" id="ccmonth">
-                <option>1011201 - Teknik Informatika-1/S1 (60 mhs)</option>
-                <option>1025102 - Manajemen Informatika-2/D3 (25 mhs)</option>
-                <option>1035003 - Arsitek-1/S1 (50 mhs)</option>
-                <option>1035804 - Teknik sipil-3/S1 (30 mhs)</option>
-                <option>1025705 - Teknik Manufaktur/D3 (35 mhs)</option>
-                </select></li>
-                <button type="button" class="btn btn-secondary"><a href="UNIVERSITAS.htm">Cetak Kartu Studi Mahasiswa</a></button>
-              <li class="list-group-item list-group-item-light">Kartu Rencana Studi - FRS + PRS</li>
-              <li class="list-group-item list-group-item-secondary"><select class="form-control" id="ccmonth">
-                <option>1023501 - Teknik Informatika-1/S1 (80 mhs)</option>
-                <option>1065802 - Manajemen Informatika-2/D3 (30 mhs)</option>
-                <option>1048003 - Arsitek-1/S1 (50 mhs)</option>
-                <option>1058604 - Teknik sipil-3/S1 (60 mhs)</option>
-                <option>1078905 - Teknik Manufaktur/D3 (50 mhs)</option>
-                </select></li>
-                <button type="button" class="btn btn-secondary"><a href="UNIVERSITAS.htm">Cetak Kartu Studi Mahasiswa</a></button>
-              </ul>
-              </div>
-              </div>
-              </div>
-              
-             
+<div class="card">
+<div class="card-header">
+<strong>KURIKULUM 2010 TEKNIK INFORMATIKA S1 (101)</strong>
+</div>
+<div class="card-body">
+<form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
 
+<div class="form-group row">
+<label class="col-md-3 col-form-label" for="text-input">Kode Mata Kuliah</label>
+<div class="col-md-2">
+<input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">
+<span class="help-block">This is a help text</span>
+</div>
+</div>
+<div class="form-group row">
+<label class="col-md-3 col-form-label" for="text-input">Mata Kuliah</label>
+<div class="col-md-5">
+<input type="text" id="text-input" name="text-input" class="form-control" placeholder="Text">
+<span class="help-block">This is a help text</span>
+</div>
+</div>
+
+
+<div class="form-group row">
+<label class="col-md-3 col-form-label" for="select1">SKS</label>
+<div class="col-md-1">
+<select id="select1" name="select1" class="form-control">
+<option value="0">Please select</option>
+<option value="1">Option #1</option>
+<option value="2">Option #2</option>
+<option value="3">Option #3</option>
+</select>
+</div>
+</div>
+<div class="form-group row">
+<label class="col-md-3 col-form-label" for="select2">Semester</label>
+<div class="col-md-1">
+<select id="select2" name="select2" class="form-control">
+<option value="0">Please select</option>
+<option value="1">Option #1</option>
+<option value="2">Option #2</option>
+<option value="3">Option #3</option>
+</select>
+</div>
+</div>
+
+
+
+<div class="form-group row">
+<label class="col-md-3 col-form-label" for="select2">Jenis</label>
+<div class="col-md-9">
+<div class="form-check">
+<input class="form-check-input" type="radio" value="radio1" id="radio1" name="radios">
+<label class="form-check-label" for="radio1">
+Wajib
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="radio" value="radio2" id="radio2" name="radios">
+<label class="form-check-label" for="radio2">
+Pilihan
+</label>
+</div>
+</div>
+</div>
+<div class="form-group row">
+<label class="col-md-3 col-form-label" for="select1">Kelompok MK</label>
+<div class="col-md-5">
+<select id="select1" name="select1" class="form-control">
+<option value="0">Please select</option>
+<option value="1">Option #1</option>
+<option value="2">Option #2</option>
+<option value="3">Option #3</option>
+</select>
+</div>
+</div>
+<div class="form-group row">
+<label class="col-md-3 col-form-label" for="select1">Disurvey</label>
+<div class="col-md-1">
+<select id="select1" name="select1" class="form-control">
+<option value="0">Please select</option>
+<option value="1">Option #1</option>
+<option value="2">Option #2</option>
+<option value="3">Option #3</option>
+</select>
+</div>
+</div>
+</div>
+
+</form>
+</div>
+<div class="card-footer">
+<button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Simpan</button>
+<button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> Reset</button>
+</div>
+</div>
+
+
+
+
+
+          </div>
         </div>
       </main>
       <aside class="aside-menu">
